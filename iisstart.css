@@ -1,0 +1,39 @@
+.header{
+    font-size: 50px;
+    color: blue;
+    background-color: black;
+    margin: 0;
+    height: 75px;
+}
+
+
+
+
+.body{
+    background-color: aliceblue;
+    margin: 0;
+    display: flex;
+    
+}
+.index{
+    background-color: aqua;
+    width: 25%;
+    
+
+}
+.naiyou{
+    background-color: blue;
+    width: 75%;
+   
+}
+
+
+
+
+.footer{
+    font-size: 80px;
+    background-color: black;
+    margin: 0px;
+    height: 200px;
+    color: brown;
+}
