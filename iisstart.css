@@ -1,39 +1,31 @@
-.header{
-    font-size: 50px;
-    color: blue;
-    background-color: black;
-    margin: 0;
-    height: 75px;
+.header {
+  font-size: 30px;
+  color: blue;
+  background-color: black;
 }
 
-
-
-
-.body{
-    background-color: aliceblue;
-    margin: 0;
-    display: flex;
-    
-}
-.index{
-    background-color: aqua;
-    width: 25%;
-    
-
-}
-.naiyou{
-    background-color: blue;
-    width: 75%;
-   
+.body {
+  margin: 0;
+  background-color: aliceblue;
 }
 
+/* 横並びはこの main にだけ適用 */
+.main {
+  display: flex;
+}
 
+.index {
+  background-color: aqua;
+  width: 25%;
+}
 
+.naiyou {
+  background-color: lightblue;
+  width: 75%;
+}
 
-.footer{
-    font-size: 80px;
-    background-color: black;
-    margin: 0px;
-    height: 200px;
-    color: brown;
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
